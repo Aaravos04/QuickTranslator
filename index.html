@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/x-icon" href="./images/icon.png" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <title>QuickTranslate - Fast Language Translator</title>
+</head>
+
+<body>
+    <header id="home">
+        <!-- Navbar Starts -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <a class="navbar-brand" href="#" style="font-weight: 600">
+                    <img src="./images/icon.png" width="40" alt="" srcset="" />
+                    <!-- <i class="fa-solid fa-paper-plane light-mode-icon"></i> -->
+                    &nbsp;QuickTranslate</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link mx-2 active" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-2 active" href="#translator">Translator</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-2 active" href="#features">Features</a>
+                        </li>
+                        <!-- <li class="nav-item">
+                            <a class="nav-link mx-2 active" href="#review">Reviews</a>
+                        </li> -->
+                        <li class="nav-item">
+                            <a class="nav-link mx-2 active" href="#contact">Feedback</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Hero Section Starts -->
+        <section class="hero flex-box">
+            <div class="container px-5">
+                <h1 class="light-mode-h1 my-2">Welcome to QuickTranslate</h1>
+                <p class="mx-5 px-5 py-2">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum rerum
+                    nulla, qui optio ipsam aliquam deserunt animi enim obcaecati vel hic
+                    consequatur facilis a numquam rem in culpa fugiat dolor! Officiis
+                    nam numquam impedit quas doloribus excepturi totam cum repellat
+                    placeat, illo, ratione dolor omnis minima aut illum.
+                </p>
+                <a class="btn btn-primary mb-5" href="#translator">Get Started</a>
+            </div>
+        </section>
+    </header>
+
+    <main>
+        <!-- Translator Section -->
+        <section class="translator container" id="translator">
+            <center>
+                <h1 class="light-mode-h1 mb-4">Language Translator</h1>
+                <div id="product" class="container">
+                    <div class="container">
+                        <ul>
+                            <li>
+                                <select name="" id="from-lang"></select>
+                            </li>
+                            <li></li>
+                            <li>
+                                <select name="" id="to-lang"></select>
+                            </li>
+                        </ul>
+                    </div> 
+                    <hr width="100%" class="container">   
+                    <div class="row container">
+                        <div class="col-md-6">
+                            <textarea name="" id="" cols="1" rows="1" placeholder="Enter Text"></textarea>
+                        </div>
+                        <div class="col-md-6">
+                            <textarea name="" id="" cols="1" rows="1" placeholder="Translation" disabled></textarea>
+                        </div>
+                    </div> 
+                </div>           
+            </center>
+        </section>
+
+        <!-- Features Section -->
+        <section class="features" id="features">
+            <center>
+                <h1 class="light-mode-h1">Our Features</h1>
+                <div class="container flex-box card-div features-card-div">
+                    <div class="card light-card">
+                        <i class="fa-solid fa-language light-mode-icon"></i>
+                        <div class="card-body">
+                            <h5 class="card-title light-card-title">Text Translation</h5>
+                            <p class="card-text light-mode-p">
+                                Some quick example text to build on the card title and make up
+                                the bulk of the card's content.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card light-card">
+                        <i class="fa-solid fa-head-side-cough light-mode-icon"></i>
+                        <div class="card-body">
+                            <h5 class="card-title light-card-title">Speech Translation</h5>
+                            <p class="card-text light-mode-p">
+                                Some quick example text to build on the card title and make up
+                                the bulk of the card's content.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card light-card">
+                        <i class="fa-solid fa-file-invoice light-mode-icon"></i>
+                        <div class="card-body">
+                            <h5 class="card-title light-card-title">
+                                Document Translation
+                            </h5>
+                            <p class="card-text light-mode-p">
+                                Some quick example text to build on the card title and make up
+                                the bulk of the card's content.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </center>
+        </section>
+
+        <!-- Review Section -->
+        <!-- <section class="review" id="review">
+            <div class="container mycontainer">
+                <div class="row">
+                    <div class="col-md-5">
+                        <div class="flex-box-fluid">
+                            <div>
+                                <h1 class="light-mode-h1 my-2">User Reviews</h1>
+                                <p class="light-mode-p">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Numquam asperiores ipsum nisi? In impedit, qui a alias iste
+                                    esse explicabo repellendus nam maxime quos at illum
+                                    blanditiis, ad architecto. Repudiandae.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-7">
+                        <div class="flex-box">
+                            <div class="card light-card">
+                                <div style="display: flex" class="mx-3 mt-3">
+                                    <div class="flex-box light-brands">
+                                        <i class="fa-solid fa-user"></i>
+                                    </div>
+                                    <div class="mx-3">
+                                        <h5 class="card-title light-card-title m-0">
+                                            Issac Newton
+                                        </h5>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text light-mode-p">
+                                        Some quick example text to build on the card title and
+                                        make up the bulk of the card's content.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="card light-card">
+                                <div style="display: flex" class="mx-3 mt-3">
+                                    <div class="flex-box light-brands">
+                                        <i class="fa-solid fa-user"></i>
+                                    </div>
+                                    <div class="mx-3">
+                                        <h5 class="card-title light-card-title m-0">
+                                            Leonardo Da Vinci
+                                        </h5>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text light-mode-p">
+                                        Some quick example text to build on the card title and
+                                        make up the bulk of the card's content.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="card light-card">
+                                <div style="display: flex" class="mx-3 mt-3">
+                                    <div class="flex-box light-brands">
+                                        <i class="fa-solid fa-user"></i>
+                                    </div>
+                                    <div class="mx-3">
+                                        <h5 class="card-title light-card-title m-0">
+                                            Albert Einstein
+                                        </h5>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text light-mode-p">
+                                        Some quick example text to build on the card title and
+                                        make up the bulk of the card's content.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="card light-card">
+                                <div style="display: flex" class="mx-3 mt-3">
+                                    <div class="flex-box light-brands">
+                                        <i class="fa-solid fa-user"></i>
+                                    </div>
+                                    <div class="mx-3">
+                                        <h5 class="card-title light-card-title m-0">
+                                            Bill Gates
+                                        </h5>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text light-mode-p">
+                                        Some quick example text to build on the card title and
+                                        make up the bulk of the card's content.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+
+        <!-- Banner Section -->
+        <section class="banner" id="banner">
+            <div class="container-fluid py-5 my-2 bg-light-banner">
+                <center>
+                    <div class="px-5">
+                        <h1 class="py-2" style="font-weight: 600">
+                            Start Translating Now
+                        </h1>
+                        <p class="py-1">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+                            vitae dicta dolore repudiandae voluptatem quae asperiores saepe.
+                            Distinctio officiis optio earum aliquam minima tenetur aut
+                            laboriosam labore illum! Lorem ipsum dolor sit amet consectetur,
+                            adipisicing elit. Eos, doloribus! Quas reiciendis iusto vel
+                            obcaecati dolorem eius fugit ad, inventore quod est. Quas
+                            reiciendis iusto vel obcaecati dolorem eius fugit ad, inventore
+                            quod est. Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit.
+                        </p>
+                        <a class="btn btn-outline-dark mt-2" href="#translator">Get Started</a>
+                    </div>
+                </center>
+            </div>
+        </section>
+
+        <!-- Contact Us Section -->
+        <section class="contact" id="contact">
+            <div class="container mb-4">
+                <div class="row">
+                    <div class="col-md-6 mb-4">
+                        <img class="container-fluid" style="background-color: #ec3054; border-radius: 8px"
+                            src="./images/contact.jpg" alt="" />
+                    </div>
+                    <div class="col-md-5">
+                        <div class="flex-box-fluid">
+                            <div class="container-fluid">
+                                <h1 class="light-mode-h1">Your Feedback</h1>
+                                <p class="light-mode-p">
+                                    <i class="fa-solid fa-user light-mode-icon"></i> Full Name
+                                </p>
+                                <input type="text" class="light-card" placeholder="Enter Your Name" />
+                                <p class="light-mode-p">
+                                    <i class="fa-solid fa-envelope light-mode-icon"></i> Enter
+                                    Your Email
+                                </p>
+                                <input type="text" class="light-card" placeholder="Enter Your Email" />
+                                <p class="light-mode-p">
+                                    <i class="fa-solid fa-message light-mode-icon"></i> Message
+                                </p>
+                                <textarea class="light-card" placeholder="Type Your Message Here"></textarea>
+                                <button class="btn btn-outline-primary my-2 mb-5">
+                                    Submit
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 mb-4">
+                    <h1>
+                        <img src="./images/icon.png" width="50" alt="" srcset="" />
+                        &nbsp;QuickTranslate
+                    </h1>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex dicta
+                        dolores esse nostrum deserunt ipsa amet consequuntur culpa ut
+                        minima. Cumque dolore vel natus error consectetur est ex
+                        repudiandae voluptate.
+                    </p>
+                    <div class="light-brands flex-box">
+                        <i class="fa-brands fa-facebook"></i>
+                    </div>
+                    <div class="light-brands flex-box">
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                    <div class="light-brands flex-box">
+                        <i class="fa-brands fa-twitter"></i>
+                    </div>
+                    <div class="light-brands flex-box">
+                        <i class="fa-brands fa-facebook-messenger"></i>
+                    </div>
+                    <div class="light-brands flex-box">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </div>
+                </div>
+                <div class="col-md-1"></div>
+                <div class="col-md-3 mb-2">
+                    <h1>Quick Links</h1>
+                    <ul>
+                        <li><a class="light-hover" href="#home">Home</a></li>
+                        <li><a class="light-hover" href="#translator">Translator</a></li>
+                        <li><a class="light-hover" href="#features">Features</a></li>
+                        <!-- <li><a class="light-hover" href="#review">Reviews</a></li> -->
+                        <li><a class="light-hover" href="#contact">Feedback</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h1>Contact Us</h1>
+                    <ul>
+                        <li class="light-hover">
+                            <i class="fa-solid fa-phone light-mode-icon"></i> +91 98765
+                            43210
+                        </li>
+                        <li class="light-hover">
+                            <i class="fa-solid fa-envelope light-mode-icon"></i>
+                            quicktranslate@gmail.com
+                        </li>
+                        <li class="light-hover">
+                            <i class="fa-solid fa-map-location-dot light-mode-icon"></i>
+                            Kolkata, India - 700118
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <center>
+                    <hr />
+                    <p>
+                        &copy; Copyright 2023 | All Rights Reserved.<br />Created by
+                        Neelabhra Roy
+                    </p>
+                </center>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="./js/countries.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
